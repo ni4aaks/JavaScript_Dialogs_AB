@@ -1,2 +1,2 @@
 # JavaScript_Dialogs_AB
-Mana elektroniskā klade ar JavaScript
+## 1. nodarbība 20220502
