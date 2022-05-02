@@ -11,3 +11,7 @@ Katras ierakstītais simbols sastāv no skaitļu kombinācijas, kuras attēlotas
 
 
 ## GitHub konta izveide un darbības principi  
+1. Izveidots konts:  
+> - github.com  
+2. Iepazīties ar GitHub formatēšanas dokumentāciju:  
+> - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
