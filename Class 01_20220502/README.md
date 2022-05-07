@@ -18,4 +18,5 @@ Katras ierakstītais simbols sastāv no skaitļu kombinācijas, kuras attēlotas
 
 [^1]: https://github.com/ni4aaks  
 
+~~test teksta izsvītrošana~~
 
