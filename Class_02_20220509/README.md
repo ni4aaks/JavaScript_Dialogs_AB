@@ -14,7 +14,7 @@
 ## Repositorija izmantošana Visual studio code
 >- pievienot, kā folderi clonēto repositoriju/ folderi
 >- Veikt izmaiņas izmaiņas README.md ar redaktoru.
->- Aplukot rezultātu: uz atverta koda ...md labo taustiņu un OPEN preview
+>- Aplukot rezultātu: uz atverta koda ...md (taba) labo taustiņu un OPEN preview
 
 ## Saglabāt datus un veikt repositorija sinhronizēšanu ar GitHub.com
 >- izvēlās - source code
@@ -24,7 +24,7 @@
 kods:
 git config --global user.email "maris.nitcis@gmail.com"
 git config --global user.name "ni4aaks"
->- 
+>- sync Changes
 
 
 
