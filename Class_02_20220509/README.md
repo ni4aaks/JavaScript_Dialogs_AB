@@ -24,6 +24,7 @@
 kods:
 git config --global user.email "maris.nitcis@gmail.com"
 git config --global user.name "ni4aaks"
+>- 
 
-VSC commit pieejas GitHub izmanotojot terminalu
+
 
