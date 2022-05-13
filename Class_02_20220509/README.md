@@ -20,9 +20,9 @@
 >- izvēlās - source code
 >- ... trīs punktiņu jaizvēlas - uzklišķinot jaizvēlas (changes) - stages all changes
 >- jaizvēlas commit vai ķeksi
->- izmetot kļūdu jaizpilda konta konfigurāciju, ar terminālu
-kods:
-git config --global user.email "maris.nitcis@gmail.com"
+>- izmetot kļūdu jaizpilda konta konfigurāciju, ar terminālu  
+kods:  
+git config --global user.email "maris.nitcis@gmail.com"  
 git config --global user.name "ni4aaks"
 >- sync Changes
 
