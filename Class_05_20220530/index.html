@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Registration form</h2>
+
+    <form action="/Class_05_20220530/action_page.php" method="GET">
+        <!-- teksta ievade laukā -->
+        <fieldset>
+            <legend> Personal data</legend>
+            <label for="Name">Name:</label><br>
+            <input type="text" id="Name" name="Name"><br><br>
+            <label for="lname">Surname:</label><br>
+            <input type="text" id="lname" name="Surname"><br><br>
+            <!-- izvēlnes iespējas -->
+            <label for="sex">Choose a sex:</label><br><br>
+            <select id="sex" name="Sex">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Registration datas</legend>
+            <!-- epasta ievade izvēlnēs -->
+            <label for"email">E-mail</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <!-- datuma izvēlne -->
+            <label for="date">Date</label><br>
+            <input type="date" id="birthday" name="birthday"><br><br>
+
+            <!-- sleptas paroles ievade laukā .{8,} 8 un vaiŗāk simboli-->
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd" pattern=".{8,}"><br><br>
+            <!-- kometāru lauciņš -->
+            <textarea name="message" rows="10" cols="30"></textarea>
+            <br><br>
+        </fieldset><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
