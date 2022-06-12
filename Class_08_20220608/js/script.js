@@ -41,7 +41,7 @@ let carName = "Volvo";
 document.getElementById("demo").innerHTML = carName;
 
 
-// 'scope' - skripta bloks, nodalāms ar šādām irkavām - {}
+// 'scope' - skripta bloks, nodalāms ar šādām iekavām - {}
 // var atslēgas vārds ļauj nodefinēt globālo mainīgo - pieejams visā koda garumā
 var a = 45;
 console.log("a vērtība (no 'galvena zara' pirms scope):" + a);
