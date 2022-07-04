@@ -27,3 +27,11 @@ for (let i = 1; i < 11; i++) {
 }
 console.log(text2);
 document.getElementById("for_automatic_count_odd_until_10").innerHTML = text2;
+
+let text3 = "";
+for (let i = 1; i < 11; i++) {
+    if (i % 2 > 0)
+        text3 = text3 + i + "<br>";
+}
+console.log(text2);
+document.getElementById("for_automatic_count_even_until_10").innerHTML = text3;
