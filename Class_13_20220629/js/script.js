@@ -45,3 +45,33 @@ for (let i = 1; i < 11; i++) {
 }
 console.log(text4);
 document.getElementById("for_automatic_count_odd_until_10_with_even_descripttion").innerHTML = text4;
+
+var text5 = "",
+    dalit = [2, 3, 4, 6, 8];
+
+
+for (let i = 1; i < 25; i++) {
+    text5 = text5 + i;
+    var flag = 1;
+    for (let k = 0; k < dalit.length; k++) {
+        if (i % dalit[k] == 0) {
+            if (flag == 1) {
+                flag = 0;
+                text5 = text5 + " dalās ar skaitli ";
+            }
+            text5 = text5 + dalit[k] + ",";
+        }
+    }
+    if (flag == 0) {
+        text5 = text5.slice(0, text5.length - 1);
+    }
+
+
+    if (i % 2 == 0) {
+        text5 = text5 + " pāra skaitlis ";
+    } else {
+        text5 = text5 + " nepāra skaitlis ";
+    }
+    text5 = text5 + "<BR>";
+}
+document.getElementById("for_automatic_count_odd_until_10_with_even_descripttion_new").innerHTML = text5;
