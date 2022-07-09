@@ -19,6 +19,7 @@
 
 // dialogs();
 
+/*
 const cars = ["BMW", "Volvo", "Mini"];
 
 let text = "";
@@ -84,3 +85,10 @@ for (let x of vards) {
 }
 
 document.getElementById("vardi_analize").innerHTML = "Šajā teikumā:<br><b>" + vards + "</b><br>ir " + derigo_vardu_skaits + " vārdi, kuru" + " garums ir >= " + N;
+*/
+
+function burti(x, counter) {
+    vards = prompt("Ievadiet teikumu, kuru apstrādāt: ")
+
+
+}
