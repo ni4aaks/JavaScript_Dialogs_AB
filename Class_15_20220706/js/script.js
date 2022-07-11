@@ -90,5 +90,5 @@ document.getElementById("vardi_analize").innerHTML = "Šajā teikumā:<br><b>" +
 function burti(x, counter) {
     vards = prompt("Ievadiet teikumu, kuru apstrādāt: ")
 
-ppp
+pppojoj velns arārā
 }
