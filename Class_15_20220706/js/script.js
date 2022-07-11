@@ -87,8 +87,32 @@ for (let x of vards) {
 document.getElementById("vardi_analize").innerHTML = "Šajā teikumā:<br><b>" + vards + "</b><br>ir " + derigo_vardu_skaits + " vārdi, kuru" + " garums ir >= " + N;
 */
 
+vards = prompt("Ievadiet teikumu, kuru apstrādāt: ")
+var burtu_skaititajs_varda = 0;
+var burtu_skaititajs_teikuma = 0;
+var derigo_vardu_skaits = 0;
+N = 5;
+
 function burti(x, counter) {
-    vards = prompt("Ievadiet teikumu, kuru apstrādāt: ")
+    (burtu_skaititajs_varda >= N) {
+        // console.log("Vēl vairāk, iepriekšējā vārdā bija" + N + "un vairāk simboli");
+        derigo_vardu_skaits++;
 
+    }
+    burtu_skaititajs_varda = 0;
+} else {
+    burtu_skaititajs_varda++;
+    // console.log(x + " tas ir " + burtu_skaititajs_varda + ".simbols vārdā");
 
+    if (burtu_skaititajs_teikuma == vards.length) {
+        // console.log("Iepriekšējā vārdā bija " + burtu_skaititajs_varda + " burti");
+        if (burtu_skaititajs_varda >= N) {
+            // console.log("Vēl viarāk, iepriekšējā vārdā bija " + N + " un vairāk burti");
+            derigo_vardu_skaits++;
+        }
+        burtu_skaititajs_varda = 0;
+    
+    
+    document.getElementById("Funkcijas_vardi_analize").innerHTML = vards;
 }
+burti();
