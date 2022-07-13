@@ -84,8 +84,6 @@ function dms2deg(s) {
     // Determine if south latitude or west longitude
     var sw = /[sw]/i.test(s);
 
-    console.log(sw);
-
     // Determine sign based on sw (south or west is -ve) 
     var f = sw ? -1 : 1;
 
