@@ -49,3 +49,15 @@ function EU_country_find(value, index, array) {
 //     },
 // };
 
+
+const EU = {
+    countries: ["Latvija", "Lietuva", "Cehija"],
+}
+
+let search = promt("Enter country name:"),
+function search_countries(EU, search) {
+    for (var i = ""; i < )
+
+
+
+}
