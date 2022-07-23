@@ -7,3 +7,5 @@
 ## [6. nodarbība 20220523](https://github.com/ni4aaks/JavaScript_Dialogs_AB/tree/main/Class_06_20220601)
 ## [7. nodarbība 20220523](https://github.com/ni4aaks/JavaScript_Dialogs_AB/tree/main/Class_07_20220606)
 ## [8. nodarbība 20220608](https://github.com/ni4aaks/JavaScript_Dialogs_AB/tree/main/Class_08_20220608)
+
+
