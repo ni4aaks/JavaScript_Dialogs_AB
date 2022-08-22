@@ -44,5 +44,5 @@ console.log(location.hash);
 // assign(), replace(), reload()
 // svarīgi vai ir vai nav ieraksts iekš History - attiecīgi iespēja pārviettotes ar Back/Next pogām
 //         vai notiek lapas satura izgūšana no servera vai no pārluka Cache
-//location.replace('http://127.0.0.1:5500/Dialogs_AB/Class_21/index.html?q1=1&q2=a');
+location.replace('http://127.0.0.1:5500/Dialogs_AB/Class_21_20220027/index.html?q1=1&q2=a');
 
